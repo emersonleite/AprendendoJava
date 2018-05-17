@@ -3,7 +3,7 @@ package exercicios.cap03;
 public class Ex03_1 {
 	
 	    public static void main(String[] args){
-	        int num0 = 8;
+	        int num0 = 10;
 	        int num = 0;
 	        int fat = 1;
 	        int i = 1;
