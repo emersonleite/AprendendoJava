@@ -1,4 +1,4 @@
-package exercicios.cap04;
+package exercicios.cap04_1;
 
 public class Relogio {
 	//Instanciando ponteiros
@@ -14,7 +14,6 @@ public class Relogio {
 		ponteiroHora.posicao = hora;
 		ponteiroMinuto.posicao = minuto / 5;
 		ponteiroSegundo.posicao = segundo / 5;	
-		
 		
 	}
 	

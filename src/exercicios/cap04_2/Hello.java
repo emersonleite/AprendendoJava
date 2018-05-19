@@ -1,4 +1,4 @@
-package exercicios.cap04;
+package exercicios.cap04_2;
 
 public class Hello {
 
