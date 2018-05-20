@@ -3,8 +3,12 @@ package exercicios.cap04_2;
 public class Hello {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Hello world");
+		
+		Fracao y = new Fracao();
+		
+		y.mult(10, 5, 20, 10);
+		
+		
 
 	}
 
