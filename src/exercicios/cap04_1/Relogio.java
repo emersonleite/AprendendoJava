@@ -8,7 +8,7 @@ public class Relogio {
 	
 	
 	void acertarRelogio (int hora, int minuto, int segundo){
-		//Convertendo para o formato de 12h.
+		//Convertendo para o formato de 12h...
 		hora = hora % 12;
 		
 		ponteiroHora.posicao = hora;
