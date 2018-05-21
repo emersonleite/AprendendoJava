@@ -7,6 +7,18 @@ public class Ex01_0 {
 		// Criação do relogio
 		Relogio relogio01 = new Relogio();
 		
+		// Instanciando os ponteiros dentro da aplicação. Poderia ter sido feito dentro da 
+		//classe Relogio dessa forma:
+		//Ponteiro ponteiroHora = new Ponteiro();
+		
+		Ponteiro hora1 = new Ponteiro();
+		Ponteiro minuto1 = new Ponteiro();
+		Ponteiro segundo1 = new Ponteiro();
+		
+		relogio01.ponteiroHora = hora1;
+		relogio01.ponteiroMinuto = minuto1;
+		relogio01.ponteiroSegundo = segundo1;		
+				
 		//Acerto das horas
 		relogio01.acertarRelogio(17, 55, 55);
 		

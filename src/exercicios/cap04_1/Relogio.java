@@ -1,10 +1,12 @@
 package exercicios.cap04_1;
 
 public class Relogio {
-	//Instanciando ponteiros
-	Ponteiro ponteiroHora = new Ponteiro();
-	Ponteiro ponteiroMinuto = new Ponteiro();
-	Ponteiro ponteiroSegundo = new Ponteiro();
+	//Ponteiros foram instanciados na aplicação
+	Ponteiro ponteiroHora; // = new Ponteiro();
+	Ponteiro ponteiroMinuto; // = new Ponteiro();
+	Ponteiro ponteiroSegundo; // = new Ponteiro();
+	
+	//static Ponteiro teste;
 	
 	
 	void acertarRelogio (int hora, int minuto, int segundo){
