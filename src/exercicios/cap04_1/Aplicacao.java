@@ -1,6 +1,6 @@
 package exercicios.cap04_1;
 
-public class Ex01_0 {
+public class Aplicacao {
 	
 	public static void main(String[] args) {
 		
