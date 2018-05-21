@@ -1,20 +1,21 @@
 package exercicios.cap04_2;
-/*
- * Representa uma fra��o
- */
+
+ // Representa uma fração
+ 
 public class Fracao {
 
-	//Numerador da fra��o
+	//Numerador da fração
 	double numerador;
 	
-	//Denominador da fra��o
+	//Denominador da fração
 	double denominador;
 	
-	//Calcula o valor do fra��o
+	//Calcula o valor do fração
 	double calcularValor() {
 		/*
-		 * Para calcular o valor, basta dividir o numerador da fra��o pelo denominador. Se o denominador 
-		 * for 0, o resultado � assumido como 0, j� que n�o � poss�vel fazer uma divis�o por 0.
+		 * Para calcular o valor, basta dividir o numerador da fração pelo denominador. 
+		 * Se o denominador for 0, o resultado é assumido como 0, já que não é possível
+		 * fazer uma divisão por 0.
 		 */
 		if(denominador == 0) {
 			return 0;
@@ -23,22 +24,23 @@ public class Fracao {
 	}
 	
 	/*
-	 * Multiplica a fra��o atual (do pr�prio objeto) por outra (passada como par�metro), dando uma terceira fra��o como resultado.
+	 * Multiplica a fração atual (do próprio objeto) por outra (passada como parâmetro), 
+	 * dando uma terceira fração como resultado.
 	 */
 	Fracao multiplicar(Fracao f) {
 		//Cria um novo resultado
 		Fracao result = new Fracao();
 		
-		//Multiplica os numeradores e denominadores das fra��es
+		//Multiplica os numeradores e denominadores das frações
 		result.numerador = this.numerador * f.numerador;
 		result.denominador = this.denominador * f.denominador;
 		
-		//Retorna a nova fra��o
+		//Retorna a nova fração
 		return result;
 	}
 	
 	/*
-	 * Define os valores do numerador e denominador da fra��o
+	 * Define os valores do numerador e denominador da fração
 	 */
 	void definirValores(double numerador, double denominador) {
 		this.numerador = numerador;
@@ -46,7 +48,7 @@ public class Fracao {
 	}
 	
 	/*
-	 * Retorna a representa��o da fra��o em forma de string
+	 * Retorna a representação da fração em forma de string
 	 */
 	String obterFracao() {
 		return numerador + "/" + denominador;
