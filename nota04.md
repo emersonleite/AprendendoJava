@@ -137,22 +137,19 @@ void reservar (Cliente c, Date data)
 Livro livro01 = new Livro();
 Cliente cliente1 = new Cliente();
 
-````
+```
+
+- Acima estão sendo criados objetos associados a variáveis _livro01_ e _cliente1_;
+- O objeto possui acesso ao que foi definido na sua estrutura (classe) através do  operado ".", como abaixo:
 
 
+```java
+livro1.titulo = "Aprendendo Java";
+livro1.emprestar(cliente1);
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
+- Cada objeto criado com o _new_ é único;
+- Os atributos de objetos diferentes pertencem apenas ao objeto;
 
 
 
