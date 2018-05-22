@@ -103,10 +103,48 @@ Os quadrados são divididos em 03 partes:
 
 - Declara-se o tipo de retorno, depois o nome e em seguida os parâmetros do método. 
 
-![Diagrama de Classes](src/img/fig03_assinatura_metodo.png)
+![Assinatura de métodos](src/img/fig03_assinatura_metodo.png)
 
 - Se o método não retorna valores, é utilizada  a palavra *void*.
 - Um método pode ter zero ou mais parâmetros, e todo parâmetro deve ter um tipo definido.
+
+#### 2.7 Sobrecarga de Métodos
+
+- Sobrecarregar um método quer dizer criar métodos com mesmo nome, mas com assinatura diferente. Exemplo abaixo:
+
+```java
+void reservar (int dias)
+
+int reservar (Date data)
+
+void reservar (Cliente c, Date data)
+
+```
+- Três métodos com mesmo nome, que não são extamente iguais.
+- O nome do método não muda;
+- Os parâmetros variam. Variam de acordo com tipos diferentes e quantidade de parâmetros solicitados pelo método.
+- O importante é que exista diferença e não haja dois métodos com a mesma assinatura.
+- No caso de vários métodos com o mesmo nome, o Java identifica os parâmetros que estão sendo passados. 
+
+![Sobrecarga de métodos](src/img/fig04_sobrecarga_metodos.png)
+
+#### 2.8 Criando e Manipulando Objetos
+
+- O objeto é sempre uma instância de uma classe;
+- Para instanciar objetos é utilizada a palavra _new_;
+
+```java
+Livro livro01 = new Livro();
+Cliente cliente1 = new Cliente();
+
+````
+
+
+
+
+
+
+
 
 
 
