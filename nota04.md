@@ -72,13 +72,13 @@ String isbn;
 int numPaginas;
 ...
 
-//métodos
-void emprestar (Cliente c){
-...
-}
-void devolver (){
-...
-}
+	//métodos
+	void emprestar (Cliente c){
+	...
+	}
+	void devolver (){
+	...
+	}
 }
 
 ```
