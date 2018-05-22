@@ -230,16 +230,43 @@ double n = 10.0;
 Computador comp = new Computador();
 Telefone tel = new Telefone();
 ```
-- Variáveis _n_ criada na stack.
+- Variável _n_ criada na stack.
 - O operador _new()_ cria um objeto no heap;
 - A variável __comp_ tem uma referência a um objeto que foi criado no heap.
-- O operador "=" faz a ligação da variável com a referência do objeto no heap.- 
+- O operador "=" faz a ligação da variável com a referência do objeto no heap.
 
 ![Heap](src/img/fig11_heap01.png)
 
-- O mesmo ocorre para a variável _tel__:
+- O mesmo ocorre para a variável _tel_:
 
 ![Heap](src/img/fig12_heap02.png)
+
+- Abaixo um esquema de atribuição de variáveis a um mesmo objeto no heap, sendo que as variáveis _c2_ e _c3_:
+
+![Heap](src/img/fig13_heap03.png)
+
+- Com ``` c1 = null``` a referência de c1 ao objeto no heap é interrompida, mas o objeto continua existindo, e o objeto não pode mais ser utilizado.
+
+![Heap](src/img/fig14_heap04.png)
+
+- Obejatos no heap que não podem ser mais acessados são eliminados pelo __garbage collector__.
+
+#### 2.10 Garbage Collector
+
+- Serviço da JVM que executa em segundo plano;
+- Procura objetos no heap que não são mais utilizados pela aplicação e os remove;
+- O garbage colletor não pode ser controlado pelo desenvolvedor.
+
+#### 2.11 Operador _this_
+
+- Não é obrigatório;
+- Usado para duas situações:
+-- Diferenciar um atributo do objeto de um argumento do método;
+-- Fornecer a referência do próprio objeto para outro método;
+
+![Operador This](src/img/fig15_this.png)
+
+
 
 
 
