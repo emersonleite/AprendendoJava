@@ -83,6 +83,38 @@ int numPaginas;
 
 ```
 
+#### 2.5 Notação UML
+
+- **U**nified **M**odeling **L**anguage;
+- A notação UML é utilizada para documentar sistemas orientados a objetos;
+- Composta por diversos diagramas, entre eles o **Diagrama de Classes**, que mostra as classe do sistema, em conjunto com respectivos métodos e atributos.
+
+Abaixo um exemplo de Diagrama de Classes:
+
+![Diagrama de Classes](src/img/fig02_diagrama_classes.png)
+
+Os quadrados são divididos em 03 partes:
+
+- Nome da Classe, atributos e métodos.
+- Os atributos estar associados a outras classes. Há a relação entre duas classes.
+
+
+#### 2.6 Assinatura de um método
+
+- Declara-se o tipo de retorno, depois o nome e em seguida os parâmetros do método. 
+
+![Diagrama de Classes](src/img/fig03_assinatura_metodo.png)
+
+- Se o método não retorna valores, é utilizada  a palavra *void*.
+- Um método pode ter zero ou mais parâmetros, e todo parâmetro deve ter um tipo definido.
+
+
+
+
+
+
+
+
 
 
 
