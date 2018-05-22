@@ -65,10 +65,54 @@ class Livro{
 ##### 2.1.2 Assinatura dos métodos getters e setters
 
 - A assinatura dos getters e setters segue um padrão:
-- Get ou set concatenado com o nome do atributo;
+- Get ou set concatenado com o nome do atributo como nome do método;
 - A primeira letra do atributo fica maiúscula;
 - No caso de atributos tipo boolean, o padrão do getter é _is..._, porém o get também pode ser utilizado.
 
 ![Nome de arquivo x classes](src/img/fig18_assinatuta_getters_setters.png)
+
+### 3. Construtores
+
+- O construtor de uma classe é chamado toda vez que um objeto da classe é instanciado;
+- No momento da instanciação do objeto, se for necessário executar determinado código, esse código deve ser colocado dentro do construtor;
+- O construtor possui o mesmo nome da classe;
+- logo após da instanciação do objeto o construtor é chamado;
+
+![Construtores](src/img/fig19_construtores.png)
+
+#### 3.1 Construtor Padrão
+
+- Quando o construtor não é fornecido, o Java fornece um construtor padrão (sem parâmetros);
+- Toda classe deve ter um construtor, por isso o Java fornece um construtor padrão, se não for descrito um.
+
+![Construtor padrão](src/img/fig20_construtor_padrao.png)
+
+#### 3.2 Construtor com parâmetros
+
+- Construtores podem receber parâmetros da mesma forma que métodos.
+- Os parâmetros são passados no momento em que o _new_ é executado.
+
+![Construtor com parâmetros](src/img/fig21_construtor_parametros.png)
+
+#### 3.3 Sobrecarga de Construtores
+
+- Dois cosntrutores na mesma classe que recebem parâmetros diferentes;
+- Java diferencia pelo parâmetros passados quando o _new_ é executado;
+- O _this()_ é uma forma que existe de invocar um outro construtor a partir de um construtor.
+- Em _this()_ pode ser passado parâmetros para o outro construtor, se for necessário.
+
+![Sobrecarga de construtores](src/img/fig22_sobrecarga_construtores.png)
+
+
+
+
+
+
+```java
+
+
+```
+
+
 
 
