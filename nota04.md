@@ -36,7 +36,7 @@
 - Podem ser criados quando objetos quanto se queira a partir das classes;
 - Classes são utilizadas para instanciar objetos. 
 
-![Classes e objetos](img/fig01_objetos.png)
+![Classes e objetos](src/img/fig01_objetos.png)
 
 
 
