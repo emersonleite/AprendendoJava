@@ -2,7 +2,73 @@
 
 ## Modificadores de Acesso, Construtores e Elementos Estáticos
 
-### 1. Programação procedural
+### 1. Modificadores de acesso
+
+- Restringem o acesso aos elementos de uma classe, como atributos e métodos;
+- Alguns modificadores:
+--_private_: visivel apenas para a classe que o declara;
+--_public_: elemento visível a todas as classes;
+
+#### 1.1 Atributos e métodos
+ 
+- Marcar um atributo ou método como _private_ esconde o atributo de quem usa a classe. 
+- É interessante marcar métodos como _private_ quando este método é auxiliar da classe, e que não deve estar acessível externamente. 
+
+
+```java
+class Livro{
+	private String isbn;
+	private int numPaginas;
+	
+	public void emprestar(Cliente c){
+	...
+	}
+	public void devolver() {
+	...
+	} 
+```
+ - Os atributos acima são acessíveis somente pela classe livro, que os enxerga.
+ - Os métodos acima são públicos, ou seja, qualquer outra classe consegue enxergar esses métodos;
+ - Não é regra mas atributos são, normalmente, declarados como _private_ e métodos são declarados como _public_.
+ - O ideal é que objetos colaborem através de trocas de mensagens, ou sejam chamadas de métodos, e não através de manipulação direta de atributos. 
+ - Os atributos não são expostos externamente, somente os métodos. Isso protege os atributos.
+ 
+#### 1.2 Classes
+
+- Quase sempre classe também são declaradas como _public_;
+- Apenas uma classe definidad como _public_ pode existir num arquivo Java;
+- O nome do arquivo deve ser igual ao nome da classe definida como _public_, conforme abaixo:
+
+![Nome de arquivo x classes](src/img/fig16_nome_classes.png)
+
+- Classe não declaradas como _public_ são chamadas _inner classes_, incluindo classes declaradas dentro de outras classes;
+
+### 2. Princípio do Encapsulamento
+
+- Encapsular é esconder detalhes de funcionamento do programa; 
+- É fundamental para permitir que o programa seja suscetível a mudanças.
+
+#### 2.1 Métodos Getters e Setters
+
+- Quando os atributos são declarados como _private_, externamente eles não podem ser acessados. Nesse caso se utiliza os métodos _getters e setters_;
+- Os getters são usados para expor os valores de atributos;
+- Os setters são usados para alterar os valores de atributos. 
+
+![Nome de arquivo x classes](src/img/fig17_getters_setters.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1. Orientada a procedimentos ou funções;
 
