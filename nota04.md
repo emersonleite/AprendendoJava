@@ -188,17 +188,38 @@ int somar (int n1, int n2){
 }
 ```
 
+```java
+	int x = 2;
+
+```
+
 ![stack](src/img/fig05_stack01.png)
+
+```java
+	int y = 3;
+
+```
 
 ![stack](src/img/fig06_stack01.png)
 
+```java
+int somar (int n1, int n2){...
+```
+
 ![stack](src/img/fig07_stack01.png)
+
+```java
+	int s = n1 + n2;
+```
 
 ![stack](src/img/fig08_stack01.png)
 
-- Quando o método termina, tudo o que foi declarado na stack com relação aquele método é eliminado dela automaticamente pelo Java.
-
+```java
+	int r = somar(x,y);
+```
 ![stack](src/img/fig09_stack01.png)
+
+- Quando o método termina, tudo o que foi declarado na stack com relação aquele método é eliminado dela automaticamente pelo Java.
 
 ![stack](src/img/fig10_stack01.png)
 
