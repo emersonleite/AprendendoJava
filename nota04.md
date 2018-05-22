@@ -21,7 +21,7 @@
 
 #### 2.1 Classes
 
-- Uma classe representa um tipo de dados;
+- Uma *classe* representa um tipo de dados;
 - É uma estrutura;
 - O programador define os elementos que a classe terá.
 - *Atributos* são as coisas que uma classe tem. São características da estrutura (classe). São características que a classe sabe sobre si mesma;
@@ -31,16 +31,35 @@
 
 #### 2.2 Objetos
 
-- A classe é apenas uma estrutura;
-- Os objetos é o que se cria a partir de uma estrutura;
+- A *classe* é apenas uma estrutura;
+- Os *objetos* é o que se cria a partir de uma estrutura;
 - Podem ser criados quando objetos quanto se queira a partir das classes;
 - Classes são utilizadas para instanciar objetos. 
 
+Exemplo abaixo:
+
 ![Classes e objetos](src/img/fig01_objetos.png)
 
+Cada objetos acima é diferente entre si. Tem atributos diferentes. Mas são criados com base na classe livro.
+
+#### 2.3
+
+- No java, classe são declaradas utlizando a palavra reservada *class*:
+
+
+```java
+public class livro {
+...
+}
+
+```
 
 
 
+
+
+![Classes e objetos](src/img/fig01_objetos.png)
+![Classes e objetos](src/img/fig01_objetos.png)
 
 
 
