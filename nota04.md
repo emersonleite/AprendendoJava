@@ -24,10 +24,10 @@
 - Uma classe representa um tipo de dados;
 - É uma estrutura;
 - O programador define os elementos que a classe terá.
-- *Atributos são as coisas que uma classe tem. São características da estrutura (classe). São características que a classe sabe sobre si mesma;
-- *Métodos são operações que se podem realizar na classe.
-- *Atributos são representados por substantivos.
-- *Métodos são operações que a classe é capaz de realizar. Representa-se por verbos.
+- *Atributos* são as coisas que uma classe tem. São características da estrutura (classe). São características que a classe sabe sobre si mesma;
+- *Métodos* são operações que se podem realizar na classe.
+- *Atributos* são representados por substantivos.
+- *Métodos* são operações que a classe é capaz de realizar. Representa-se por verbos.
 
 #### 2.2 Objetos
 
