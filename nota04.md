@@ -1,9 +1,10 @@
 # Curso de Fundamentos de Java 
+
 ## Classes e objetos
 
 ### 1. Programação procedural
 
-1. Orientada a procecimentos ou funções;
+1. Orientada a procedimentos ou funções;
 
 #### 1.1 Problemas:
 - Mudanças de requisitos;
@@ -33,16 +34,16 @@
 
 - A *classe* é apenas uma estrutura;
 - Os *objetos* é o que se cria a partir de uma estrutura;
-- Podem ser criados quando objetos quanto se queira a partir das classes;
+- Podem ser criados quando objetos quantos se queiram a partir das classes;
 - Classes são utilizadas para instanciar objetos. 
 
 Exemplo abaixo:
 
 ![Classes e objetos](src/img/fig01_objetos.png)
 
-Cada objetos acima é diferente entre si. Tem atributos diferentes. Mas são criados com base na classe livro.
+Cada objeto acima é diferente entre si. Tem atributos diferentes. Mas são criados com base na classe livro.
 
-#### 2.3
+#### 2.3 Declarando classes no Java
 
 - No java, classe são declaradas utlizando a palavra reservada *class*:
 
@@ -53,36 +54,37 @@ public class livro {
 }
 
 ```
+- Um arquivo *.java* pode ter apenas uma classe declarada como pública dentro dele. O nome do arquivo java é o nome da classe. 
 
+#### 2.4 Declarando Métodos e Atributos
 
+- Atributos definidos como se definem variáveis.
+- No exemplo abaixo são criados dois atributos: *isbn* e *numPaginas*;
+- Abaixo são declarados dois métodos.
+- O java inicializa os atributos automaticamente. O Java atribui valores padrão para os valores. Para variáveis numéricos atribui o valor 0 e para o *boolean*, por exemplo, atribui o valor *false*.
 
-
-
-![Classes e objetos](src/img/fig01_objetos.png)
-![Classes e objetos](src/img/fig01_objetos.png)
-
-
-
-
-
-
-
-1. sobrecarga de métodos;
 
 ```java
-public class Aplicacao {
+public class livro {
 
-	public static void main(String[] args) {
-		
-		double baseT = 10.0;
-		double alturaT = 20.0;
-		double ladoQ = 12.0;
-		double raio = 10.0;
-		double areaT;
-		double areaQ;
-		double areaC;
-		double BT = 10;
-		double bT = 5;
-		double areaTrap;
-		double alturaTrap = 5;
+//atributos 
+String isbn;
+int numPaginas;
+...
+
+//métodos
+void emprestar (Cliente c){
+...
+}
+void devolver (){
+...
+}
+}
+
 ```
+
+
+
+
+
+![Classes e objetos](src/img/fig01_objetos.png)
