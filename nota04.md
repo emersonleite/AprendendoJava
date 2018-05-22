@@ -223,6 +223,8 @@ int somar (int n1, int n2){...
 
 ![stack](src/img/fig10_stack01.png)
 
+##### 2.9.2 Como funciona o Heap
+
 
 
 
