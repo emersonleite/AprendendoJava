@@ -56,6 +56,24 @@ class Livro{
 
 ![Nome de arquivo x classes](src/img/fig17_getters_setters.png)
 
+##### 2.1.1 Benefícios dos métodos getters e setters
+
+- Protegem os atributos;
+- Evitam mudanças de códigos em diversos lugares;
+- Não utilizar getters e setters quando não for necessário;
+
+##### 2.1.2 Assinatura dos métodos getters e setters
+
+- A assinatura dos getters e setters segue um padrão:
+- Get ou set concatenado com o nome do atributo;
+- A primeira letra do atributo fica maiúscula;
+- No caso de atributos tipo boolean, o padrão do getter é _is..._, porém o get também pode ser utilizado.
+
+![Nome de arquivo x classes](src/img/fig18_assinatuta_getters_setters.png)
+
+
+
+
 
 
 
