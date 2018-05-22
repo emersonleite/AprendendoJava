@@ -225,6 +225,26 @@ int somar (int n1, int n2){...
 
 ##### 2.9.2 Como funciona o Heap
 
+```java
+double n = 10.0;
+Computador comp = new Computador();
+Telefone tel = new Telefone();
+```
+- Variáveis _n_ criada na stack.
+- O operador _new()_ cria um objeto no heap;
+- A variável __comp_ tem uma referência a um objeto que foi criado no heap.
+- O operador "=" faz a ligação da variável com a referência do objeto no heap.- 
+
+![Heap](src/img/fig11_heap01.png)
+
+- O mesmo ocorre para a variável _tel__:
+
+![Heap](src/img/fig12_heap02.png)
+
+
+
+
+
 
 
 
