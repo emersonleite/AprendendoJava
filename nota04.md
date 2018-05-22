@@ -151,7 +151,54 @@ livro1.emprestar(cliente1);
 - Cada objeto criado com o _new_ é único;
 - Os atributos de objetos diferentes pertencem apenas ao objeto;
 
+```java
+Livro livro1 = new Livro();
+livro1.isbn = "1234";
+
+Livro livro2 = new Livro();
+livro2.isbn = "4321";
+```
+
+- Na memória são dois objetos diferentes. Cada livro possui o seu próprio ISBN, por exemplo. 
+
+
+#### 2.9 Objetos e Referências
+
+- Uma variável cujo tipo é uma classe não guarda o objeto diretamente;
+- A variável gurda uma referência ao objeto;
+- O _new_ aloca uma área de memória e retorna a referência (endereço) da área de memória alocada;
+- As variáveis declaradas em métodos são criadas numa área de memória chamada **stack**.
+- Os objetos são criados numa área de memória chamada de **heap**;
+
+##### 2.9.1 Como funciona a Stack
+
+- A stack é uma área de memória que armazena as variáveis locais e parâmetros de métodos;
+- A stack é como que uma pilha;
+
+```java
+void calc(){
+	int x = 2;
+	int y = 3;
+	int r = somar(x,y);
+}
+
+int somar (int n1, int n2){
+	int s = n1 + n2;
+	return s;
+}
+```
+
+![stack](src/img/fig05_stack01.png)
+![stack](src/img/fig06_stack01.png)
+![stack](src/img/fig07_stack01.png)
+![stack](src/img/fig08_stack01.png)
+
+- Quando o método termina, tudo o que foi declarado na stack com relação aquele método é eliminado dela automaticamente pelo Java.
+
+![stack](src/img/fig09_stack01.png)
+![stack](src/img/fig10_stack01.png)
 
 
 
-![Classes e objetos](src/img/fig01_objetos.png)
+
+
