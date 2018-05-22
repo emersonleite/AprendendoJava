@@ -15,7 +15,7 @@
 
 - Escever menos código -> reutilização de código;
 - Concentrar responsabilidades nos locais certos;
-- Felibilização da aplicação;
+- Flexibilização da aplicação;
 - Encapsular lógica de negócio;
 - Polimorfismo (variação do comportamento);
 
@@ -31,7 +31,12 @@
 
 #### 2.2 Objetos
 
-- 
+- A classe é apenas uma estrutura;
+- Os objetos é o que se cria a partir de uma estrutura;
+- Podem ser criados quando objetos quanto se queira a partir das classes;
+- Classes são utilizadas para instanciar objetos. 
+
+![Classes e objetos](img/fig01_objetos.png)
 
 
 
