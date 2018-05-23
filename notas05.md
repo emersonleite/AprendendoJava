@@ -134,3 +134,5 @@ class Livro{
 - O bloco _static_ é executado quando a classe é referenciada pela primeira vez;
 
 
+
+
