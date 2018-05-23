@@ -103,16 +103,34 @@ class Livro{
 
 ![Sobrecarga de construtores](src/img/fig22_sobrecarga_construtores.png)
 
+### 4. Atributos e Métodos Estáticos 
 
+- Atributos e/ou métodos podem não estar atrelados a um objeto específico, mas sim à classe;
+- Esse atributos e métodos da classe são definidos pelo modificador _static_.
 
+#### 4.1 Declarando Elementos Estáticos
 
+- Os valores dos atributos estáticos são compartilhados entre todas as instâncias da classe;
+- Métodos estáticos só podem acessar atributos ou outros métodos que também sejam estáticos.
 
+![Elementos estáticos](src/img/fig23_elementos_estaticos.png)
 
-```java
+#### 4.2 Invocando Elementos Estáticos
 
+- O acesso é feito utilizando diretamente a classe. Não é necessário criar um objeto.
 
-```
+![Invocando Elementos estáticos](src/img/fig24_invocando_elementos_estaticos.png)
 
+#### 4.3 Criação de Constantes
 
+- Atributos estáticos são uma forma bastante usada para criar constantes no Java;
+- O modificador final indicado que o vlaor de _VERSAO_ não pode ser alterado.
+
+![Criação de constantes](src/img/fig25_criacao_de_constantes.png)
+
+#### 4.4 O Bloco _static_
+
+- Uma classe pode ter um bloco _static_;
+- O bloco _static_ é executado quando a classe é referenciada pela primeira vez;
 
 
