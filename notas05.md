@@ -135,8 +135,8 @@ class Livro{
 - Uma classe só pode ter um bloco _static_. Mas o bloco não é obrigatório.
 - O bloco só é executado uma vez.
 - Ele é utilizado para duas coisas, basicamente:
-	-- Inicializar atributos estáticos;
-	-- Executar um código antes que a classe seja utilizada.
+	1. Inicializar atributos estáticos;
+	2. Executar um código antes que a classe seja utilizada.
 
 
 
