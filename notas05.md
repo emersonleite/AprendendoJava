@@ -77,7 +77,8 @@ class Livro{
 - O construtor de uma classe é chamado toda vez que um objeto da classe é instanciado;
 - No momento da instanciação do objeto, se for necessário executar determinado código, esse código deve ser colocado dentro do construtor;
 - O construtor possui o mesmo nome da classe;
-- logo após da instanciação do objeto o construtor é chamado;
+- logo após da instanciação do objeto o construtor é chamado.
+- O construtores ainda podem: validar parâmetros, podem chamar outros métodos, instanciar outros objetos etc.
 
 ![Construtores](src/img/fig19_construtores.png)
 
@@ -85,6 +86,7 @@ class Livro{
 
 - Quando o construtor não é fornecido, o Java fornece um construtor padrão (sem parâmetros);
 - Toda classe deve ter um construtor, por isso o Java fornece um construtor padrão, se não for descrito um.
+- A partir do momento em que se define um construtor, o construtor padrão (sem parâmetros) não está mais disponível. Ele terá que ser definido manualmente. 
 
 ![Construtor padrão](src/img/fig20_construtor_padrao.png)
 

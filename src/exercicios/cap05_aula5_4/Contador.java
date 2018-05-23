@@ -2,7 +2,7 @@ package exercicios.cap05_aula5_4;
 
 public class Contador {
 
-	public static int valor;
+	public static int valor; // valor é compartilhado para todas as instancias da classe
 	
 	static {
 		valor = 1;

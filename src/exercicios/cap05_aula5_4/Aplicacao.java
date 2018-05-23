@@ -8,6 +8,8 @@ public class Aplicacao {
 //		int soma = m.somar(10, 5);
 //		int subtracao = m.subtrair(50, 10);
 		
+		
+// Acesso direto à classe. Não se precisa mais criar o objeto
 //		int soma = Matematica.somar(10, 5);
 //		int subtracao = Matematica.subtrair(50, 10);
 //		
