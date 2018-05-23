@@ -61,6 +61,7 @@ class Livro{
 - Protegem os atributos;
 - Evitam mudanças de códigos em diversos lugares;
 - Não utilizar getters e setters quando não for necessário;
+- Permitem validação na entrada de dados;
 
 ##### 2.1.2 Assinatura dos métodos getters e setters
 
