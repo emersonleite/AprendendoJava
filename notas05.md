@@ -131,7 +131,26 @@ class Livro{
 #### 4.4 O Bloco _static_
 
 - Uma classe pode ter um bloco _static_;
-- O bloco _static_ é executado quando a classe é referenciada pela primeira vez;
+- O bloco _static_ é executado quando a classe é referenciada pela primeira vez. Nas próximas instâncias ele não será executado. Ele só é executado **uma vez**.
+- Uma classe só pode ter um bloco _static_. Mas o bloco não é obrigatório.
+- O bloco só é executado uma vez.
+- Ele é utilizado para duas coisas, basicamente:
+	-- Inicializar atributos estáticos;
+	-- Executar um código antes que a classe seja utilizada.
+
+
+
+```java
+public class MinhaClasse {
+	private static int x;
+	
+	static {					   //Bloco static
+		x = 10;
+		Programa.inicializar();
+	}
+}
+
+```
 
 
 
