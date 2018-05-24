@@ -1,4 +1,4 @@
-package exercicios.cap04_2;
+package exercicio.proposto.cap04_2;
 
 public class Aplicacao {
 

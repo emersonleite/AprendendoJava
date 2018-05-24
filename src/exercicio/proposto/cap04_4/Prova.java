@@ -1,4 +1,4 @@
-package exercicios.cap04_4;
+package exercicio.proposto.cap04_4;
 
 public class Prova {
 	double notaParte1;

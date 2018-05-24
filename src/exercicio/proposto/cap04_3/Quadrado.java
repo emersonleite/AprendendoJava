@@ -1,4 +1,4 @@
-package exercicios.cap04_3;
+package exercicio.proposto.cap04_3;
 
 public class Quadrado {
 	

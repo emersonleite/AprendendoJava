@@ -1,4 +1,4 @@
-package exercicios.cap04_1;
+package exercicio.proposto.cap04_1;
 
 public class Relogio {
 	//Ponteiros foram instanciados na aplicação
