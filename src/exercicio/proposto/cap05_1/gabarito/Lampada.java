@@ -5,6 +5,7 @@ public class Lampada {
 	// Armazena o estado atual da l�mpada. Este atributo � privado porque s� deve 
 	// ser vis�vel dentro desta classe
 	private boolean ligada;
+	//boolean ligada;
 	
 	// Construtor. Recebe como par�metro o estado inicial da l�mpada
 	public Lampada(boolean ligada) {
