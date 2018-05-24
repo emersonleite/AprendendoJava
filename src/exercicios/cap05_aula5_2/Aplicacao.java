@@ -14,5 +14,7 @@ public class Aplicacao {
 		
 		double saldo = c.getSaldo();
 		
+		System.out.println(saldo);
+		
 	}
 }
