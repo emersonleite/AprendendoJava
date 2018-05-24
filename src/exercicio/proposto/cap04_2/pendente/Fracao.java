@@ -1,4 +1,4 @@
-package exercicio.proposto.cap04_2;
+package exercicio.proposto.cap04_2.pendente;
 
  // Representa uma fração
  

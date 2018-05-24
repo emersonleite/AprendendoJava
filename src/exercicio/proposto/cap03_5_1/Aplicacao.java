@@ -28,5 +28,3 @@ public class Aplicacao {
 	        }
 	    }
 	}
-
-// Teste de commit 
