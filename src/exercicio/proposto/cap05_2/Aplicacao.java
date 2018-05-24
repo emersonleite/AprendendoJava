@@ -17,6 +17,9 @@ public class Aplicacao {
 		int d4 = d3.getMes();
 		System.out.println(d4);
 		
+		d3.imprimir();
+		d1.imprimir();
+		
 
 	}
 

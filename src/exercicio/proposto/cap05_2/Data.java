@@ -29,9 +29,9 @@ public class Data{
 		this.segundo = segundo;
 		}
 	
-	//public void imprimir() {
-		
-	//}
+	public void imprimir() {
+		System.out.println(dia + "/" + mes + "/" + ano + " " + hora + ":" + minuto + ":" + segundo );
+	}
 
 	public int getDia() {
 		return dia;
