@@ -11,16 +11,10 @@ public class Aplicacao {
 		Data d1 = new Data(01,01,13,12,00,01);
 		Data d3 = new Data(10,07,18);
 		
-		int d2 = d1.getAno();		
-		System.out.println(d2);
+		d1.imprimir(Data.FORMATO_12H);
+		d3.imprimir(Data.FORMATO_12H);
 		
-		int d4 = d3.getMes();
-		System.out.println(d4);
 		
-		d3.imprimir();
-		d1.imprimir();
-		
-
 	}
 
 }

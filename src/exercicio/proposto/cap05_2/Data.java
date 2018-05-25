@@ -8,13 +8,9 @@ public class Data{
 	private int hora;
 	private int minuto;
 	private int segundo;
-	
-	//public class constantes {
-		//public static final int FORMATO_12H = 12;
-		//public static final int FORMATO_24H = 24;
-	//}
-	
-	//static boolean FORMATO_12 = true;
+
+	public static final int FORMATO_12H = 12;
+	public static final int FORMATO_24H = 24;
 	
 	public Data(int dia, int mes, int ano){
 		this.dia = dia;
@@ -29,8 +25,14 @@ public class Data{
 		this.segundo = segundo;
 		}
 	
-	public void imprimir() {
-		System.out.println(dia + "/" + mes + "/" + ano + " " + hora + ":" + minuto + ":" + segundo );
+	public void imprimir(int formato) {
+		if (formato == FORMATO_12H && hora > 12) {
+			System.out.println(dia + "/" + mes + "/" + ano + " " 
+		+ (hora - formato) + ":" + minuto + ":" + segundo );	
+		}else {
+			System.out.println(dia + "/" + mes + "/" + ano + " " + hora + ":" + minuto + ":" + segundo );
+		}
+		
 	}
 
 	public int getDia() {
