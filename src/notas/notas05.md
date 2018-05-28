@@ -4,7 +4,7 @@
 
 | Teste | Teste 2 |
 |--|--|
-|Ex. 01  | Ex. 02 |
+|Ex. 01  | Ex. 022 |
 
 ```java
 class Livro{
