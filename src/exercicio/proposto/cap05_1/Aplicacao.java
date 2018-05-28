@@ -19,7 +19,7 @@ public class Aplicacao {
 		
 		Lampada l1 = new Lampada(false);
 		
-		Lampada l2 = new Lampada(true);
+		var l2 = new Lampada(true);
 		
 		Lampada l3 = new Lampada (false);
 		
