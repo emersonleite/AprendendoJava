@@ -2,22 +2,6 @@
 
 ## Modificadores de Acesso, Construtores e Elementos Estáticos
 
-| Teste | Teste 2 |
-|--|--|
-|Ex. 01  | Ex. 022 |
-
-```java
-class Livro{
-	private String isbn;
-	private int numPaginas;
-	
-	public void emprestar(Cliente c){
-	...
-	}
-	public void devolver() {
-	...
-```
-
 ### 1. Modificadores de acesso
 
 - Restringem o acesso aos elementos de uma classe, como atributos e métodos;
