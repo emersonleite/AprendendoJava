@@ -6,8 +6,8 @@
 
 - Restringem o acesso aos elementos de uma classe, como atributos e métodos;
 - Alguns modificadores:
---_private_: visivel apenas para a classe que o declara;
---_public_: elemento visível a todas as classes;
+1. _private_: visivel apenas para a classe que o declara;
+2. _public_: elemento visível a todas as classes;
 
 #### 1.1 Atributos e métodos
  

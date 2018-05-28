@@ -24,23 +24,22 @@ public class Aplicacao {
 		Lampada l3 = new Lampada (false);
 		
 		l3.ligar();
+					
+		l3.ligar();
 		
-			
-//		l3.ligar();
-//		
-//		l3.imprimir();		
-//				
-//		l1.imprimir();
-//		
-//		l2.imprimir();
-//		
-//		l2.desligar();
-//		
-//		l1.ligar();
-//		
-//		l1.imprimir();
-//		
-//		l2.imprimir();
+		l3.imprimir();		
+				
+		l1.imprimir();
+		
+		l2.imprimir();
+		
+		l2.desligar();
+		
+		l1.ligar();
+		
+		l1.imprimir();
+		
+		l2.imprimir();
 		
 		l3.imprimir();
 
