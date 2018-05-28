@@ -2,9 +2,9 @@
 
 ## Modificadores de Acesso, Construtores e Elementos Estáticos
 
-|  |  |
+| Teste | Teste 2 |
 |--|--|
-|  |  |
+|Ex. 01  | Ex. 02 |
 
 
 ### 1. Modificadores de acesso
@@ -164,5 +164,5 @@ public class MinhaClasse {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2OTQxNTI4MV19
+eyJoaXN0b3J5IjpbLTQ2MDg2MzI0XX0=
 -->
