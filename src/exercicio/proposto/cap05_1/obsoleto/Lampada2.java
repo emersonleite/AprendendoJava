@@ -11,7 +11,7 @@ Construa uma aplicação que cria uma lâmpada ligada, muda o estado dela e tamb
 o estado atual após cada chamada aos métodos ligar() e desligar(). 
 */
 
-package exercicio.proposto.cap05_1;
+package exercicio.proposto.cap05_1.obsoleto;
 
 public class Lampada2 {
 	private boolean ligada;	

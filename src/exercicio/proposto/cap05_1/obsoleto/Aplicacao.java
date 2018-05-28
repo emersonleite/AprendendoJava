@@ -11,7 +11,7 @@ Construa uma aplicação que cria uma lâmpada ligada, muda o estado dela e tamb
 o estado atual após cada chamada aos métodos ligar() e desligar(). 
 */
 
-package exercicio.proposto.cap05_1;
+package exercicio.proposto.cap05_1.obsoleto;
 
 public class Aplicacao {
 
@@ -21,28 +21,23 @@ public class Aplicacao {
 		
 		Lampada l2 = new Lampada(true);
 		
-		Lampada l3 = new Lampada (false);
+		Lampada l3 = new Lampada();   //Lampada que utiliza o construtor padrão, definido manualmente
 		
 		l3.ligar();
 		
-			
-//		l3.ligar();
-//		
-//		l3.imprimir();		
-//				
-//		l1.imprimir();
-//		
-//		l2.imprimir();
-//		
-//		l2.desligar();
-//		
-//		l1.ligar();
-//		
-//		l1.imprimir();
-//		
-//		l2.imprimir();
+		l3.imprimir();		
+				
+		l1.imprimir();
 		
-		l3.imprimir();
+		l2.imprimir();
+		
+		l2.desligar();
+		
+		l1.ligar();
+		
+		l1.imprimir();
+		
+		l2.imprimir();
 
 
 	}

@@ -1,9 +1,5 @@
-/* Exercício ajustado conforme consulta ao gabarito.
- * Não eram necessários atributos de visibilidade private. Foi convertido para public.
- * Foram desconsiderados métodos getters and setters.
- * Exercício anterior na pasta obsoleto.
- *  
-* Crie uma classe Lampada que possui um atributo ligada, o qual indica se a lâmpada está ligada 
+/*
+ * Crie uma classe Lampada que possui um atributo ligada, o qual indica se a lâmpada está ligada 
 ou desligada. 
 Ao construir uma lâmpada, o estado dela (ligada ou desligada) deve ser fornecido. Para ligar e 
 desligar a lâmpada, os métodos ligar() e desligar() devem ser chamados, 
@@ -15,14 +11,14 @@ Construa uma aplicação que cria uma lâmpada ligada, muda o estado dela e tamb
 o estado atual após cada chamada aos métodos ligar() e desligar(). 
 */
 
-package exercicio.proposto.cap05_1;
+package exercicio.proposto.cap05_1.obsoleto;
 
 public class Lampada {
-	public boolean ligada;	
+	private boolean ligada;	
 	
 	//Construtor da lampada passando valor de ligada (true) ou desligada (false) na criação
 	public Lampada (boolean ligada) {
-		this.ligada = ligada;		
+		setLigada(ligada);		
 	}
 	
 	//Definindo um construtor que não recebe parâmetros
@@ -30,27 +26,28 @@ public class Lampada {
 		
 	}
 	
-//	//Método Getter
-//	public boolean isLigada() {
-//		return ligada;
-//	}
-//	
-//	//Método Setter
-//	public void setLigada(boolean ligada) {
-//		this.ligada = ligada;
-//	}
+	//Método Getter
+	public boolean isLigada() {
+		return ligada;
+	}
+	
+	//Método Setter
+	public void setLigada(boolean ligada) {
+		this.ligada = ligada;
+	}
 	
 	//Método para ligar a lampada. Utilização do métodos setter.
 	public void ligar() {
-		ligada = true;
+		setLigada(true);
 	}
 	
 	//Método para desligar a lampada. Utilização do métodos setter.
 	public void desligar() {
-		ligada = false;		
+		setLigada(false);		
 	}
 	
 	public void imprimir() {
+		isLigada(); //chamada ao método getter dentro do método imprimir, que retorna o estado da lampada
 		if (ligada == true) {
 			System.out.println("A lampada está ligada");
 		}else {
