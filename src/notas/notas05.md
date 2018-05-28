@@ -96,7 +96,7 @@ class Livro{
 - logo após da instanciação do objeto o construtor é chamado.
 - O construtores ainda podem: validar parâmetros, podem chamar outros métodos, instanciar outros objetos etc.
 
-![Construtores](..src/img/fig19_construtores.png)
+![Construtores](src/img/fig19_construtores.png)
 
 #### 3.1 Construtor Padrão
 
@@ -175,5 +175,6 @@ public class MinhaClasse {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwODAxMTQ4OCwtMTg0Mzk0NDU0NF19
+eyJoaXN0b3J5IjpbLTE4NDM5NDQ1NDQsLTE4NDM5NDQ1NDRdfQ
+==
 -->
