@@ -6,8 +6,9 @@
 |--|--|
 |Ex. 01  | Ex. 02 |
 
-    enter code here
-
+```java
+System.
+```
 
 ### 1. Modificadores de acesso
 
@@ -166,5 +167,5 @@ public class MinhaClasse {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNTI3OTIyN119
+eyJoaXN0b3J5IjpbMTQwNDE4NDE3XX0=
 -->
