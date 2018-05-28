@@ -7,7 +7,15 @@
 |Ex. 01  | Ex. 02 |
 
 ```java
-System.
+class Livro{
+	private String isbn;
+	private int numPaginas;
+	
+	public void emprestar(Cliente c){
+	...
+	}
+	public void devolver() {
+	...
 ```
 
 ### 1. Modificadores de acesso
@@ -167,5 +175,5 @@ public class MinhaClasse {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNDE4NDE3XX0=
+eyJoaXN0b3J5IjpbLTE4NDM5NDQ1NDRdfQ==
 -->
