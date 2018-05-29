@@ -11,6 +11,8 @@ public class Aplicacao {
 		var y2 = true;
 	
 		
+		System.out.println(y2);
+		
 		//var z;
 		
 	}
