@@ -39,7 +39,7 @@ class Livro{
 - Apenas uma classe definidad como _public_ pode existir num arquivo Java;
 - O nome do arquivo deve ser igual ao nome da classe definida como _public_, conforme abaixo:
 
-![Nome de arquivo x classes](src/img/fig16_nome_classes.png)
+![Nome de arquivo x classes](img/fig16_nome_classes.png)
 
 - Classe não declaradas como _public_ são chamadas _inner classes_, incluindo classes declaradas dentro de outras classes;
 
@@ -54,7 +54,7 @@ class Livro{
 - Os getters são usados para expor os valores de atributos;
 - Os setters são usados para alterar os valores de atributos. 
 
-![Nome de arquivo x classes](src/img/fig17_getters_setters.png)
+![Nome de arquivo x classes](img/fig17_getters_setters.png)
 
 ##### 2.1.1 Benefícios dos métodos getters e setters
 
@@ -70,7 +70,7 @@ class Livro{
 - A primeira letra do atributo fica maiúscula;
 - No caso de atributos tipo boolean, o padrão do getter é _is..._, porém o get também pode ser utilizado.
 
-![Nome de arquivo x classes](src/img/fig18_assinatuta_getters_setters.png)
+![Nome de arquivo x classes](img/fig18_assinatuta_getters_setters.png)
 
 ### 3. Construtores
 
@@ -80,7 +80,7 @@ class Livro{
 - logo após da instanciação do objeto o construtor é chamado.
 - O construtores ainda podem: validar parâmetros, podem chamar outros métodos, instanciar outros objetos etc.
 
-![Construtores](src/img/fig19_construtores.png)
+![Construtores](img/fig19_construtores.png)
 
 #### 3.1 Construtor Padrão
 
@@ -88,14 +88,14 @@ class Livro{
 - Toda classe deve ter um construtor, por isso o Java fornece um construtor padrão, se não for descrito um.
 - A partir do momento em que se define um construtor, o construtor padrão (sem parâmetros) não está mais disponível. Ele terá que ser definido manualmente. 
 
-![Construtor padrão](src/img/fig20_construtor_padrao.png)
+![Construtor padrão](img/fig20_construtor_padrao.png)
 
 #### 3.2 Construtor com parâmetros
 
 - Construtores podem receber parâmetros da mesma forma que métodos.
 - Os parâmetros são passados no momento em que o _new_ é executado.
 
-![Construtor com parâmetros](src/img/fig21_construtor_parametros.png)
+![Construtor com parâmetros](img/fig21_construtor_parametros.png)
 
 #### 3.3 Sobrecarga de Construtores
 
@@ -104,7 +104,7 @@ class Livro{
 - O _this()_ é uma forma que existe de invocar um outro construtor a partir de um construtor.
 - Em _this()_ pode ser passado parâmetros para o outro construtor, se for necessário.
 
-![Sobrecarga de construtores](src/img/fig22_sobrecarga_construtores.png)
+![Sobrecarga de construtores](img/fig22_sobrecarga_construtores.png)
 
 ### 4. Atributos e Métodos Estáticos 
 
@@ -116,20 +116,20 @@ class Livro{
 - Os valores dos atributos estáticos são compartilhados entre todas as instâncias da classe;
 - Métodos estáticos só podem acessar atributos ou outros métodos que também sejam estáticos.
 
-![Elementos estáticos](src/img/fig23_elementos_estaticos.png)
+![Elementos estáticos](img/fig23_elementos_estaticos.png)
 
 #### 4.2 Invocando Elementos Estáticos
 
 - O acesso é feito utilizando diretamente a classe. Não é necessário criar um objeto.
 
-![Invocando Elementos estáticos](src/img/fig24_invocando_elementos_estaticos.png)
+![Invocando Elementos estáticos](img/fig24_invocando_elementos_estaticos.png)
 
 #### 4.3 Criação de Constantes
 
 - Atributos estáticos são uma forma bastante usada para criar constantes no Java;
 - O modificador final indicado que o vlaor de _VERSAO_ não pode ser alterado.
 
-![Criação de constantes](src/img/fig25_criacao_de_constantes.png)
+![Criação de constantes](img/fig25_criacao_de_constantes.png)
 
 #### 4.4 O Bloco _static_
 
