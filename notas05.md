@@ -131,6 +131,8 @@ class Livro{
 
 ![Criação de constantes](src/img/fig25_criacao_de_constantes.png)
 
+---
+
 #### 4.4 O Bloco _static_
 
 - Uma classe pode ter um bloco _static_;
