@@ -1,7 +1,25 @@
 # Curso de Fundamentos de Java .
 
-<script src="mermaid.min.js"></script>
-<script>mermaid.initialize({startOnLoad:true});</script>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="mermaid.min.css">
+</head>
+<body>
+  <div class="mermaid">
+  graph LR
+      A --- B
+      B-->C[fa:fa-ban forbidden]
+      B-->D(fa:fa-spinner);
+  </div>
+  <script src="mermaid.min.js"></script>
+  <script>mermaid.initialize({startOnLoad:true});</script>
+</body>
+</html>
+
 
 ## Herança e Polimorfismo
 
@@ -175,8 +193,8 @@ public class MinhaClasse {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NTcxMjQ2OCwtNzQwOTQ5MTg3LC0xND
-YzNzk4OTMzLC0xODc3NDI3NzQ2LDE5NjgzMjYyODQsMjk5Mjg1
-MDQzLDE0NTkzMDQ1NCwzMDE2MzAxMDcsLTE4NDM5NDQ1NDQsLT
-E4NDM5NDQ1NDRdfQ==
+eyJoaXN0b3J5IjpbLTE1NTEyOTg3NDgsLTc0MDk0OTE4NywtMT
+Q2Mzc5ODkzMywtMTg3NzQyNzc0NiwxOTY4MzI2Mjg0LDI5OTI4
+NTA0MywxNDU5MzA0NTQsMzAxNjMwMTA3LC0xODQzOTQ0NTQ0LC
+0xODQzOTQ0NTQ0XX0=
 -->
