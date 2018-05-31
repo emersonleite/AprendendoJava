@@ -1,5 +1,8 @@
 # Curso de Fundamentos de Java .
 
+<script src="mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
+
   
 ```mermaid
 graph TD
@@ -187,9 +190,10 @@ public class MinhaClasse {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MjAyNTk5NiwtMzM0NTI3MzE5LDY4Mz
-Q0ODY4NSwtMTk0MDYyNzk3NCwtNzQ2NTUxNTI3LC03NDA5NDkx
-ODcsLTc0MDk0OTE4NywtMTQ2Mzc5ODkzMywtMTg3NzQyNzc0Ni
-wxOTY4MzI2Mjg0LDI5OTI4NTA0MywxNDU5MzA0NTQsMzAxNjMw
-MTA3LC0xODQzOTQ0NTQ0LC0xODQzOTQ0NTQ0XX0=
+eyJoaXN0b3J5IjpbLTExOTAwNTI0MjEsMTU5MjAyNTk5NiwtMz
+M0NTI3MzE5LDY4MzQ0ODY4NSwtMTk0MDYyNzk3NCwtNzQ2NTUx
+NTI3LC03NDA5NDkxODcsLTc0MDk0OTE4NywtMTQ2Mzc5ODkzMy
+wtMTg3NzQyNzc0NiwxOTY4MzI2Mjg0LDI5OTI4NTA0MywxNDU5
+MzA0NTQsMzAxNjMwMTA3LC0xODQzOTQ0NTQ0LC0xODQzOTQ0NT
+Q0XX0=
 -->
