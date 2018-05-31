@@ -1,8 +1,9 @@
 # Curso de Fundamentos de Java .
 
-## Modificadores de Acesso, Construtores e Elementos Estáticos
+## Herança e Polimorfismo
 
-### 1. Modificadores de acesso
+### 1. Herança
+- 
 
 - Restringem o acesso aos elementos de uma classe, como atributos e métodos;
 - Alguns modificadores:
@@ -159,6 +160,6 @@ public class MinhaClasse {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAxNjMwMTA3LC0xODQzOTQ0NTQ0LC0xOD
-QzOTQ0NTQ0XX0=
+eyJoaXN0b3J5IjpbLTM4MzUyODU3OCwzMDE2MzAxMDcsLTE4ND
+M5NDQ1NDQsLTE4NDM5NDQ1NDRdfQ==
 -->
