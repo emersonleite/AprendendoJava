@@ -1,7 +1,18 @@
 # Curso de Fundamentos de Java .
 
   
-<img src='https://g.gravizo.com/svg? @startuml; actor User; participant "First Class" as A; participant "Second Class" as B; participant "Last Class" as C; User -> A: DoWork; activate A; A -> B: Create Request; activate B; B -> C: DoWork; activate C; C --> B: WorkDone; destroy C; B --> A: Request Created; deactivate B; A --> User: Done; deactivate A; @enduml '>
+<img src='https://g.gravizo.com/svg?
+ digraph G {
+   main -> parse -> execute;
+   main -> init;
+   main -> cleanup;
+   execute -> make_string;
+   execute -> printf
+   init -> make_string;
+   main -> printf;
+   execute -> compare;
+ }
+'/>
 
 ## Herança e Polimorfismo
 
@@ -175,8 +186,9 @@ public class MinhaClasse {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDA2Mjc5NzQsLTc0NjU1MTUyNywtNz
-QwOTQ5MTg3LC03NDA5NDkxODcsLTE0NjM3OTg5MzMsLTE4Nzc0
-Mjc3NDYsMTk2ODMyNjI4NCwyOTkyODUwNDMsMTQ1OTMwNDU0LD
-MwMTYzMDEwNywtMTg0Mzk0NDU0NCwtMTg0Mzk0NDU0NF19
+eyJoaXN0b3J5IjpbNjgzNDQ4Njg1LC0xOTQwNjI3OTc0LC03ND
+Y1NTE1MjcsLTc0MDk0OTE4NywtNzQwOTQ5MTg3LC0xNDYzNzk4
+OTMzLC0xODc3NDI3NzQ2LDE5NjgzMjYyODQsMjk5Mjg1MDQzLD
+E0NTkzMDQ1NCwzMDE2MzAxMDcsLTE4NDM5NDQ1NDQsLTE4NDM5
+NDQ1NDRdfQ==
 -->
