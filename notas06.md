@@ -4,7 +4,8 @@
 
 ### 1. Herança
 - A herança é um mecanismo que permite que uma classe possa herdar o comportamento de outra classe, ao mesmo tempo em que novos comportamentos podem ser estabelecidos;
-- A relação de herança se dá entre classes. Uma é chamada superclasse e a outra subclasse. Subclasse é a classe que 
+- A relação de herança se dá entre classes. Uma é chamada superclasse e a outra subclasse. Subclasse é a classe que herda comportamentos da superclasse. 
+- A subclasse também pode estabelecer comportamentos para ela.
 
 - Restringem o acesso aos elementos de uma classe, como atributos e métodos;
 - Alguns modificadores:
@@ -161,6 +162,6 @@ public class MinhaClasse {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODA0NzIwOSwzMDE2MzAxMDcsLTE4ND
-M5NDQ1NDQsLTE4NDM5NDQ1NDRdfQ==
+eyJoaXN0b3J5IjpbLTE5MjEzOTEwMzAsMzAxNjMwMTA3LC0xOD
+QzOTQ0NTQ0LC0xODQzOTQ0NTQ0XX0=
 -->
