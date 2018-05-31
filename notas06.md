@@ -3,7 +3,8 @@
 ## Herança e Polimorfismo
 
 ### 1. Herança
-- 
+- A herança é um mecanismo que permite que uma classe possa herdar o comportamento de outra classe, ao mesmo tempo em que novos comportamentos podem ser estabelecidos;
+- A relação de herança se d
 
 - Restringem o acesso aos elementos de uma classe, como atributos e métodos;
 - Alguns modificadores:
@@ -160,6 +161,6 @@ public class MinhaClasse {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MzUyODU3OCwzMDE2MzAxMDcsLTE4ND
+eyJoaXN0b3J5IjpbLTY4Mjg5OTE2OCwzMDE2MzAxMDcsLTE4ND
 M5NDQ1NDQsLTE4NDM5NDQ1NDRdfQ==
 -->
