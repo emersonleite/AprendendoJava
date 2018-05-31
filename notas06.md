@@ -16,6 +16,7 @@
 
 
 
+
 - Restringem o acesso aos elementos de uma classe, como atributos e métodos;
 - Alguns modificadores:
 1. _private_: visivel apenas para a classe que o declara;
@@ -171,7 +172,8 @@ public class MinhaClasse {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjM3OTg5MzMsLTE4Nzc0Mjc3NDYsMT
-k2ODMyNjI4NCwyOTkyODUwNDMsMTQ1OTMwNDU0LDMwMTYzMDEw
-NywtMTg0Mzk0NDU0NCwtMTg0Mzk0NDU0NF19
+eyJoaXN0b3J5IjpbLTc0MDk0OTE4NywtMTQ2Mzc5ODkzMywtMT
+g3NzQyNzc0NiwxOTY4MzI2Mjg0LDI5OTI4NTA0MywxNDU5MzA0
+NTQsMzAxNjMwMTA3LC0xODQzOTQ0NTQ0LC0xODQzOTQ0NTQ0XX
+0=
 -->
