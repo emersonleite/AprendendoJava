@@ -1,18 +1,14 @@
 # Curso de Fundamentos de Java .
 
   
-<img src='https://g.gravizo.com/svg?
- digraph G {
-   main -> parse -> execute;
-   main -> init;
-   main -> cleanup;
-   execute -> make_string;
-   execute -> printf
-   init -> make_string;
-   main -> printf;
-   execute -> compare;
- }
-'/>
+```mermaid
+graph TD
+A[Christmas] -->|Get money| B(Go shopping)
+B --> C{Let me think}
+C -->|One| D[Laptop]
+C -->|Two| E[iPhone]
+C -->|Three| F[Car]
+```
 
 ## Herança e Polimorfismo
 
@@ -186,9 +182,9 @@ public class MinhaClasse {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgzNDQ4Njg1LC0xOTQwNjI3OTc0LC03ND
-Y1NTE1MjcsLTc0MDk0OTE4NywtNzQwOTQ5MTg3LC0xNDYzNzk4
-OTMzLC0xODc3NDI3NzQ2LDE5NjgzMjYyODQsMjk5Mjg1MDQzLD
-E0NTkzMDQ1NCwzMDE2MzAxMDcsLTE4NDM5NDQ1NDQsLTE4NDM5
-NDQ1NDRdfQ==
+eyJoaXN0b3J5IjpbLTMzNDUyNzMxOSw2ODM0NDg2ODUsLTE5ND
+A2Mjc5NzQsLTc0NjU1MTUyNywtNzQwOTQ5MTg3LC03NDA5NDkx
+ODcsLTE0NjM3OTg5MzMsLTE4Nzc0Mjc3NDYsMTk2ODMyNjI4NC
+wyOTkyODUwNDMsMTQ1OTMwNDU0LDMwMTYzMDEwNywtMTg0Mzk0
+NDU0NCwtMTg0Mzk0NDU0NF19
 -->
