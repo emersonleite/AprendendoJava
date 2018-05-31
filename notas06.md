@@ -3,6 +3,7 @@
 ## Herança e Polimorfismo
 
 ### 1. Herança
+
 - A herança é um mecanismo que permite que uma classe possa herdar o comportamento de outra classe, ao mesmo tempo em que novos comportamentos podem ser estabelecidos;
 - A relação de herança se dá entre classes. Uma é chamada superclasse e a outra subclasse. Subclasse é a classe que herda comportamentos da superclasse. 
 - A subclasse também pode estabelecer comportamentos para ela.
@@ -170,7 +171,7 @@ public class MinhaClasse {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2ODMyNjI4NCwyOTkyODUwNDMsMTQ1OT
-MwNDU0LDMwMTYzMDEwNywtMTg0Mzk0NDU0NCwtMTg0Mzk0NDU0
-NF19
+eyJoaXN0b3J5IjpbLTE4Nzc0Mjc3NDYsMTk2ODMyNjI4NCwyOT
+kyODUwNDMsMTQ1OTMwNDU0LDMwMTYzMDEwNywtMTg0Mzk0NDU0
+NCwtMTg0Mzk0NDU0NF19
 -->
