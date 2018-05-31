@@ -10,7 +10,7 @@
 
 ### Programando a herança no Java
 
-```sequence  Alice->Bob: Hello Bob, how are you?  Note right of Bob: Bob thinks  Bob-->Alice: I am good thanks!  ```
+
 
 
 
@@ -170,6 +170,7 @@ public class MinhaClasse {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk5Mjg1MDQzLDE0NTkzMDQ1NCwzMDE2Mz
-AxMDcsLTE4NDM5NDQ1NDQsLTE4NDM5NDQ1NDRdfQ==
+eyJoaXN0b3J5IjpbMTk2ODMyNjI4NCwyOTkyODUwNDMsMTQ1OT
+MwNDU0LDMwMTYzMDEwNywtMTg0Mzk0NDU0NCwtMTg0Mzk0NDU0
+NF19
 -->
