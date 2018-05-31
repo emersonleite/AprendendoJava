@@ -1,5 +1,8 @@
 # Curso de Fundamentos de Java .
 
+<script src="mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
+
 ## Herança e Polimorfismo
 
 ### 1. Herança
@@ -172,8 +175,8 @@ public class MinhaClasse {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MDk0OTE4NywtMTQ2Mzc5ODkzMywtMT
-g3NzQyNzc0NiwxOTY4MzI2Mjg0LDI5OTI4NTA0MywxNDU5MzA0
-NTQsMzAxNjMwMTA3LC0xODQzOTQ0NTQ0LC0xODQzOTQ0NTQ0XX
-0=
+eyJoaXN0b3J5IjpbLTk0NTcxMjQ2OCwtNzQwOTQ5MTg3LC0xND
+YzNzk4OTMzLC0xODc3NDI3NzQ2LDE5NjgzMjYyODQsMjk5Mjg1
+MDQzLDE0NTkzMDQ1NCwzMDE2MzAxMDcsLTE4NDM5NDQ1NDQsLT
+E4NDM5NDQ1NDRdfQ==
 -->
