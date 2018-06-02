@@ -129,6 +129,24 @@ class Livro{
 - Atributos estáticos são uma forma bastante usada para criar constantes no Java;
 - O modificador final indicado que o vlaor de _VERSAO_ não pode ser alterado.
 
+```java
+public class Constantes {
+	public static final int VERSAO = 1;
+}
+```
+
+Onde:
+
+- _public_: Todas as classe possuem acesso;
+- _static_: Pertence à classe e não ao objeto;
+- _final_: Trata-se de um valor fixo.
+
+Assim é possível igualar uma constate do tipo _int_:
+
+```java
+int versao = Constantes.VERSAO;
+```
+
 ![Criação de constantes](src/img/fig25_criacao_de_constantes.png)
 
 #### 4.4 O Bloco _static_
