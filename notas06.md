@@ -189,3 +189,176 @@ class Orelhao extends Telefone {
 
 #### Exemplo:
 
+- De acordo com as classes definidas abaixo, nas quais três herdam de **Animal** : **Cachorro**, **Gato** e **Vaca**.
+
+![Polimorfismo](src/img/fig26_polimorfismo.png)
+
+- As três classes sobrescrevem o método falar, implementando o método _falar()_ ao seu modo:
+
+```java
+class Animal {
+	public void falar(){
+	}
+}
+```
+
+```java
+class Cachorro extends Animal {
+	public void falar(){
+		System.out.println("Au");
+	}
+}
+```
+
+```java
+class Gato extends Animal {
+	public void falar(){
+		System.out.println("Miau");
+	}
+}
+```
+
+```java
+class Vaca extends Animal {
+	public void falar(){
+		System.out.println("Mu");
+	}
+}
+```
+
+#### Exemplo 01 de execução de código:
+
+```java
+
+Animal a = new Cachorro();
+a.falar();
+
+```
+> Resultado : "Au".
+
+```java
+
+Animal a = new Gato();
+a.falar();
+
+```
+> Resultado : "Miau".
+
+```java
+
+Animal a = new Vaca();
+a.falar();
+
+```
+> Resultado : "Mu".
+
+- **O método invocado é determinado pelo tipo do objeto que está armazenado (instanciado) na memória**, por isso os resultados diferenciados.
+
+#### Exemplo 02 de execução de código:
+
+```java
+
+Cachorro c = new Cachorro();
+Animal a = (Animal) c; // Fazendo um casting de Cachorro para Animal
+
+a.falar
+
+```
+> Resultado: "Au".
+
+- Fazendo um casting de Cachorro para Animal e atribuindo à variável _a_.
+
+- Mesmo que se faça isso, o objeto na memória continua sendo do tipo cachorro.
+
+- O que mudou foi somente a forma como o objeto é referenciado na memória e não o objeto em si;
+
+- Ou seja, a forma como o objeto é referenciado não influencia na decisão sobre qual método será invocado.
+
+#### Exemplo 03 de execução de código:
+
+- Definindo um novo método na classe Cachorro:
+
+```java
+class Cachorro extends Animal {
+	public void falar(){
+		System.out.println("Au");
+	}
+
+	public void morder(){
+		System.out.println("GRRRR");
+	}
+}
+```
+
+1. Criando objeto do tipo Cachorro:
+```java
+Animal a = new Cachorro();
+a.falar();
+
+```
+> Resultado: "Au".
+
+2. Método é inexistente para a variável que está sendo utilizada para referenciar o objeto do tipo Cachorro. A variável é do tipo Animal, e para a classe Animal não há o método definido _morder()_:
+
+```java
+Animal a = new Cachorro();
+a.morder();
+
+```
+> Resultado: método inexistente.
+
+3. Fazendo o casting de Animal para Cachorro, o código funciona. Pois a variável (tipo Cachorro) que referencia o objeto (Cachorro) tem o método que foi evocado.
+
+```java
+Animal a = new Cachorro();
+Cachorro c = (Cachorro) a;
+c.morder();
+
+```
+> Resultado: OK!
+
+- Em resumo: o tipo pelo qual o objeto é referenciado determina quais métodos e-ou atributos podem ser evocados.
+
+#### 2.1 O operador _instanceOf_
+
+- Utilizado para verificar se um objeto pertence à determinada classe.
+
+#### Exemplo:
+
+```java
+Animal a = new Cachorro();
+
+a instanceof Cachorro;
+```
+
+> Resultado: true.
+a é uma instancia de Cachorro.
+
+```java
+a instanceof Animal;
+```
+
+> Resultado: true.
+
+- Pois o objeto é uma instancia da superclasse, da qual Cachorro herda.
+
+```java
+a instanceof Gato;
+```
+
+> Resultado: false.
+
+- Pois o obejeto não é um Gato. 
+
+```java
+a instanceof Object;
+```
+
+> Resultado: true.
+
+- Pois em último nivel todas as classe em java herdam de _Object_.
+
+- O operador _instanceOf_ normalmente é utilizado antes de realizar um casting'para garantir que a operação é válida.
+
+
+
