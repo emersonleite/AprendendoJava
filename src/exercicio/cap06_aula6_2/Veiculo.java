@@ -1,7 +1,7 @@
 package exercicio.cap06_aula6_2;
 public class Veiculo {
 
-	protected String marca;
+	protected String marca; // aplicando o modificador protected.
 	protected String modelo;
 	protected int ano;
 	
