@@ -157,10 +157,30 @@ public class MinhaClasse {
 
 ```
 
+### 5 Resumo
+
+- Quando um atributo é declarado como privado (**private**), apenas a própria classe pode acessá-lo e alterar o seu valor. A mesma regra vale para construtores e métodos;
+
+- Uma classe fortemente encapsulada não permite acesso externo ao modelo interno da classe. Ao invés
+disso, o acesso é permitido apenas através de métodos getters e setters. O tempo adicional necessário para que a chamada passe pelos métodos getters e setters normalmente torna a execução mais lenta (muito pouco, é verdade). O encapsulamento é uma forma de esconder dados. Como ele não permite acesso externo a estruturas internas da classe, a possibilidade de que acessos externos corrompam os dados diminui drasticamente. Além disso, métodos setters podem validar os dados que estão sendo fornecidos.
+Nem toda classe fortemente encapsulada é imutável.
+
+- A palavra-chave _this_ se refere à instância do objeto na qual o método foi invocado. Um método estático (também conhecido como método de classe) não é invocado numa instância em particular da classe, mas sim diretamente na classe. Como um método estático não está associado com uma instância, a tentativa de utilizar a palavra-chave this no método resultará em um erro de compilação. O mesmo ocorre com a palavra-chave _super_.
+
+- Quando o programador não declara um construtor explicitamente, o Java gera um construtor padrão. Este construtor não recebe quaisquer parâmetros.
+
+- O princípio do encapsulamento significa esconder, de quem acessa o objeto externamente, detalhes internos de funcionamento do mesmo. Logo, atributos não podem ser modificados diretamente. O correto é que existam métodos setters que realizam estas modificações, fazendo antes a validação dos dados fornecidos. E os atributos devem ser privados.
+
+- Por ser constante, o modificador final deve ser utilizado. Por ser pública, o modificador public deve ser utilizado. Como não é necessário instanciar um objeto da classe, o atributo deve estar ligado à classe e não ao objeto, o que implica na utilização do modificador static. E sempre que o modificador final é utilizado, é necessário que seja especificado um valor de inicialização para o atributo.
+A sintaxe fica:
+
+```java
+public static final int CONSTANTE = 10;
+```
 
 
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDM5NDQ1NDQsLTE4NDM5NDQ1NDRdfQ
-==
--->
+
+
+
+
