@@ -181,6 +181,40 @@ class Orelhao extends Telefone {
 }
 ```
 
+#### Construtores e herança
+
+#### Exemplo de código
+
+- Os construtor da subclasse deve evocar o construtor da superclasse quando ouver um construtor diferente do padrão;
+- Essa chamada se dá, na subclasse, através do _super()_ com os parâmetros a serem passados; 
+- No exemplo abaixo o parâmetro passado foi _marca_.
+- Não existe herança de construtores em Java. 
+
+
+```java
+public class Veiculo {
+
+	protected String marca;
+	
+	public Veiculo(String marca) {
+		this.marca = marca;
+		System.out.println("Veiculo(String)");
+	}
+}
+```
+
+
+```java
+public class Carro extends Veiculo {
+
+	public Carro(String marca) {
+		super(marca); // Chamando o construtor da superclasse...
+		System.out.println("Carro(String)");
+	}
+}
+``` 
+
+
 ### 2. Polimorfismo
 
 - É a capacidade que um método tem de agir de diferentes formas, dependendo do objeto sobre o qual está sendo chamado;
@@ -348,7 +382,7 @@ a instanceof Gato;
 
 > Resultado: false.
 
-- Pois o obejeto não é um Gato. 
+- Pois o objeto não é um Gato. 
 
 ```java
 a instanceof Object;
